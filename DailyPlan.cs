@@ -110,5 +110,50 @@ namespace Calender
         {
             dtpkDate.Value = DateTime.Now;
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void mnsMain_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void btnPrevioursDay_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNextDay_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpkDate_ValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlJob_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void mnsiAddJob_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnsiToDay_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
