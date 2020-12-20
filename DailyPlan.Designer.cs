@@ -46,107 +46,93 @@
             // 
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.pnlJob);
-            this.panel1.Location = new System.Drawing.Point(16, 33);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(12, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1005, 596);
+            this.panel1.Size = new System.Drawing.Size(770, 484);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnPrevioursDay);
             this.panel3.Controls.Add(this.btnNextDay);
             this.panel3.Controls.Add(this.dtpkDate);
-            this.panel3.Location = new System.Drawing.Point(4, 4);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(997, 33);
+            this.panel3.Size = new System.Drawing.Size(764, 27);
             this.panel3.TabIndex = 1;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // btnPrevioursDay
             // 
-            this.btnPrevioursDay.Location = new System.Drawing.Point(4, 1);
-            this.btnPrevioursDay.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrevioursDay.Location = new System.Drawing.Point(3, 1);
             this.btnPrevioursDay.Name = "btnPrevioursDay";
-            this.btnPrevioursDay.Size = new System.Drawing.Size(100, 28);
+            this.btnPrevioursDay.Size = new System.Drawing.Size(75, 23);
             this.btnPrevioursDay.TabIndex = 3;
             this.btnPrevioursDay.Text = "Hôm qua";
             this.btnPrevioursDay.UseVisualStyleBackColor = true;
-            this.btnPrevioursDay.Click += new System.EventHandler(this.btnPrevioursDay_Click_1);
+            this.btnPrevioursDay.Click += new System.EventHandler(this.btnPrevioursDay_Click);
             // 
             // btnNextDay
             // 
-            this.btnNextDay.Location = new System.Drawing.Point(893, 4);
-            this.btnNextDay.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNextDay.Location = new System.Drawing.Point(686, 1);
             this.btnNextDay.Name = "btnNextDay";
-            this.btnNextDay.Size = new System.Drawing.Size(100, 28);
+            this.btnNextDay.Size = new System.Drawing.Size(75, 23);
             this.btnNextDay.TabIndex = 2;
             this.btnNextDay.Text = "Ngày mai";
             this.btnNextDay.UseVisualStyleBackColor = true;
-            this.btnNextDay.Click += new System.EventHandler(this.btnNextDay_Click_1);
+            this.btnNextDay.Click += new System.EventHandler(this.btnNextDay_Click);
             // 
             // dtpkDate
             // 
-            this.dtpkDate.Location = new System.Drawing.Point(353, 5);
-            this.dtpkDate.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpkDate.Location = new System.Drawing.Point(279, 3);
             this.dtpkDate.Name = "dtpkDate";
-            this.dtpkDate.Size = new System.Drawing.Size(265, 22);
+            this.dtpkDate.Size = new System.Drawing.Size(200, 20);
             this.dtpkDate.TabIndex = 1;
-            this.dtpkDate.ValueChanged += new System.EventHandler(this.dtpkDate_ValueChanged_1);
+            this.dtpkDate.ValueChanged += new System.EventHandler(this.dtpkDate_ValueChanged);
             // 
             // pnlJob
             // 
-            this.pnlJob.AutoSize = true;
-            this.pnlJob.Location = new System.Drawing.Point(4, 39);
-            this.pnlJob.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlJob.Location = new System.Drawing.Point(3, 32);
             this.pnlJob.Name = "pnlJob";
-            this.pnlJob.Size = new System.Drawing.Size(997, 550);
+            this.pnlJob.Size = new System.Drawing.Size(764, 447);
             this.pnlJob.TabIndex = 0;
-            this.pnlJob.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlJob_Paint);
             // 
             // mnsMain
             // 
-            this.mnsMain.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnsMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnsiAddJob,
             this.mnsiToDay});
             this.mnsMain.Location = new System.Drawing.Point(0, 0);
             this.mnsMain.Name = "mnsMain";
-            this.mnsMain.Size = new System.Drawing.Size(1033, 28);
+            this.mnsMain.Size = new System.Drawing.Size(782, 24);
             this.mnsMain.TabIndex = 1;
             this.mnsMain.Text = "menuStrip1";
-            this.mnsMain.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnsMain_ItemClicked);
             // 
             // mnsiAddJob
             // 
             this.mnsiAddJob.Name = "mnsiAddJob";
-            this.mnsiAddJob.Size = new System.Drawing.Size(90, 24);
+            this.mnsiAddJob.Size = new System.Drawing.Size(74, 20);
             this.mnsiAddJob.Text = "Thêm việc";
-            this.mnsiAddJob.Click += new System.EventHandler(this.mnsiAddJob_Click_1);
+            this.mnsiAddJob.Click += new System.EventHandler(this.mnsiAddJob_Click);
             // 
             // mnsiToDay
             // 
             this.mnsiToDay.Name = "mnsiToDay";
-            this.mnsiToDay.Size = new System.Drawing.Size(83, 24);
+            this.mnsiToDay.Size = new System.Drawing.Size(68, 20);
             this.mnsiToDay.Text = "Hôm nay";
-            this.mnsiToDay.Click += new System.EventHandler(this.mnsiToDay_Click_1);
+            this.mnsiToDay.Click += new System.EventHandler(this.mnsiToDay_Click);
             // 
             // DailyPlan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1033, 629);
+            this.ClientSize = new System.Drawing.Size(782, 511);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.mnsMain);
             this.MainMenuStrip = this.mnsMain;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DailyPlan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Lịch trong ngày";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.mnsMain.ResumeLayout(false);
             this.mnsMain.PerformLayout();
